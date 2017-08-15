@@ -1,5 +1,7 @@
 # Redes neuronales
 
+- [Introducción a las redes neuronales](presentaciones/intro_rn.pdf)
+
 # Aprendizaje
 
 # Arquitecturas profundas (en general)
