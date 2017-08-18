@@ -4,6 +4,8 @@
 
 # Aprendizaje
 
+- [Presentación de Geoffrey Hinton sobre aprendizaje en una neurona](presentaciones/aprendizaje_una_neurona.pdf)
+
 # Arquitecturas profundas (en general)
 
 # Plataformas de desarrollo
