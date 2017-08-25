@@ -20,6 +20,8 @@ aprendizaje profundo.
 
 - [El artículo original donde se propone el algoritmo de *back-propagation*](articulos/Learning-representations-by-back-propagating-errors.pdf)
 
+-
+
 
 # Arquitecturas profundas (en general)
 
