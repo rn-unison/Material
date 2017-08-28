@@ -16,6 +16,8 @@ profundo.
 
 - [Introducción a las redes neuronales](presentaciones/intro_rn.pdf)
 
+[Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](libretas/Redes neuronales hacia adelante.ipynb "Algoritmo Feedforward")
+
 # Aprendizaje
 
 - [Presentación de Geoffrey Hinton sobre aprendizaje en una neurona](presentaciones/aprendizaje_una_neurona.pdf)
