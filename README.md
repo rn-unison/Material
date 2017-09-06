@@ -16,21 +16,23 @@ profundo.
 
 - [Introducción a las redes neuronales](presentaciones/intro_rn.pdf)
 
-- [Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](libretas/Redes neuronales hacia adelante.ipynb "Algoritmo Feedforward")
+- [Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/Redes%20neuronales%20hacia%20adelante.ipynb)
 
 # Aprendizaje
 
 - [Presentación de Geoffrey Hinton sobre aprendizaje en una neurona](presentaciones/aprendizaje_una_neurona.pdf)
 
+-[Presentación sobre aprendizaje en varias neuronas](presentaciones/aprendizaje_red_neuronal.pdf)
+
 - [El artículo original donde se propone el algoritmo de *back-propagation*](articulos/Learning-representations-by-back-propagating-errors.pdf)
 
 - [Un artículo muy bueno sobre *b-prop* y consejos útiles](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
 
-- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida lineal.](libretas/neuronalineal.ipynb)
+- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida lineal.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20lineal.ipynb)
 
-- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida logística.](libretas/neuronalineal.ipynb)
+- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida logística.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20logistica.ipynb)
 
-- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una unidad de salida *softmax*.](libretas/neuronalineal.ipynb)
+- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una unidad de salida *softmax*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/unidad%20softmax.ipynb)
 
 # Arquitecturas profundas (en general)
 
