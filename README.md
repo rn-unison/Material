@@ -26,6 +26,11 @@ profundo.
 
 - [Un artículo muy bueno sobre *b-prop* y consejos útiles](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
 
+- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida lineal.](libretas/neuronalineal.ipynb)
+
+- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida logística.](libretas/neuronalineal.ipynb)
+
+- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una unidad de salida *softmax*.](libretas/neuronalineal.ipynb)
 
 # Arquitecturas profundas (en general)
 
