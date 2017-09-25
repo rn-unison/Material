@@ -111,11 +111,11 @@ def logistica(z):
     Parametros
     ----------
     z: un ndarray
-    
+
     Devuelve
     --------
     un ndarray de las mismas dimensiones que z
-    
+
     """
     return 1 / (1 + np.exp(-z))
 
