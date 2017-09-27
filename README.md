@@ -54,6 +54,8 @@ algoritmos de *DL*.
 
 - [Tutoriales básicos de *Tensorflow* (muy claros)](https://www.tensorflow.org/get_started/)
 
+- [Libreta para entender el funcionamiento básico de *Tensorflow*](libretas/intro_tensorflow.ipynb)
+
 ## Theano
 
 [Theano](http://www.deeplearning.net/software/theano/) es una
