@@ -42,7 +42,9 @@ def inicializa_red_neuronal(capas, neuronas_por_capa, tipo_salida):
         - rn['capas'] = capas
         - rn['nxc'] = neuronas_por_capas
         - rn['tipo'] = tipo
-        - rn['W'] = lista de matrices de parámetros
+        - rn['W'] = lista de matrices de parámetros, cuyo primer elemento 
+                    es `None`, de manera que rn['W'][l] son los pesos de
+                    la capa l.
         - rn['medias'] = lista de medias de cada atributo
                          (se inicializan con puros 0)
         - rn['std'] = lista de desviaciones estandard de cada atributo
@@ -98,7 +100,11 @@ def normaliza(x, medias, desviaciones):
 
     Devuelve
     --------
-    un ndarray de las mismas dimensiones de x pero normalizado
+    un ndarray de las mismas dimensiones de x pero normalizado.
+
+    Ejemplo
+    -------
+
 
     """
     return (x - medias) / desviaciones
@@ -116,6 +122,9 @@ def logistica(z):
     --------
     un ndarray de las mismas dimensiones que z
 
+    Ejemplo
+    -------
+    
     """
     return 1 / (1 + np.exp(-z))
 
@@ -134,6 +143,9 @@ def softmax(z):
     un ndarray de dimensión (T, K) donde cada columna es el
     calculo softmax de su respectivo vector de entrada.
 
+    Ejemplo
+    -------
+    
     """
     y_hat = np.exp(z)
     return y_hat / y_hat.sum(axis=1).reshape(-1, 1)
@@ -158,7 +170,7 @@ def feedforward(X, red_neuronal):
        y n el número de atributos
 
     red_neuronal: Estructura de datos de una red neuronal inicializada
-                  con la función `inicializa_red_neuronal``
+                  con la función `inicializa_red_neuronal`
 
     Devuelve
     --------
@@ -168,10 +180,13 @@ def feedforward(X, red_neuronal):
     """
     Xn = normaliza(X, red_neuronal['medias'], red_neuronal['std'])
     A = [Xn.T]
+
     for Wl in red_neuronal['W'][1:-1]:
         Z = Wl.dot(extendida(A[-1]))
         A.append(logistica(Z))
-    Z = red_neuronal['W'][-1].dot(A[-1])
+
+    Z = red_neuronal['W'][-1].dot(extendida(A[-1]))
+
     A.append(Z if red_neuronal['tipo'] is 'lineal' else
              logistica(Z) if red_neuronal['tipo'] is 'logistica' else
              softmax(Z))
@@ -220,12 +235,12 @@ def perdida(Y, Y_est, tipo):
     Un número flotante con el valor de pérdida
 
     """
-    return (np.sqrt(np.square(Y - Y_est).sum()) / Y.size
-            if tipo is 'linear' else
+    return (np.square(Y - Y_est).sum() / (2 * Y.shape[0])
+            if tipo is 'lineal' else
             -(np.log(Y_est[Y == 1]).sum() +
               np.log(1 - Y_est[Y == 0]).sum()) / Y.shape[0]
             if tipo is 'logistica' else
-            np.log(Y_est[Y == 1]).sum() / Y.shape[0])
+            -np.log(Y_est[Y == 1]).sum() / Y.shape[0])
 
 
 def guarda_rn(archivo, rn):
