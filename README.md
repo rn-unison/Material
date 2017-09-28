@@ -14,24 +14,24 @@ profundo.
 
 # Redes neuronales
 
-## Presentaciones
+#### Presentaciones
 
 - [Introducción a las redes neuronales](presentaciones/intro_rn.pdf)
 
-## Prácticas a desarrollar
+#### Prácticas a desarrollar
 
 - [Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/Redes%20neuronales%20hacia%20adelante.ipynb)
 
 # Aprendizaje
 
-## Presentaciones
+#### Presentaciones
 
 - [Presentación de Geoffrey Hinton sobre aprendizaje en una neurona](presentaciones/aprendizaje_una_neurona.pdf)
 
 - [Presentación sobre aprendizaje en varias neuronas](presentaciones/aprendizaje_red_neuronal.pdf)
 
 
-## Lecturas (artículos, tutoriales, ...)
+#### Lecturas (artículos, tutoriales, ...)
 
 - [El artículo original donde se propone el algoritmo de *back-propagation*](articulos/Learning-representations-by-back-propagating-errors.pdf)
 
@@ -39,7 +39,7 @@ profundo.
 
 - [Una página que explica muy claramente las unidades *softmax* y su aprendizaje](https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/)
 
-## Prácticas a desarrollar
+#### Prácticas a desarrollar
 
 - [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida lineal.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20lineal.ipynb)
 
@@ -50,7 +50,7 @@ profundo.
 
 # Arquitecturas profundas (en general)
 
-## Presentaciones
+#### Presentaciones
 
 - [Una presentación introductoria de *deep learning* por Y. LeCun (NYU/Facebook)](http://cilvr.cs.nyu.edu/lib/exe/fetch.php?media=deeplearning:dl-intro.pdf)
 
@@ -68,11 +68,11 @@ investigación en aprendizaje máquina de *Google research* y poco a
 poco se va convirtiendo en el medio más popular para el desarrollo de
 algoritmos de *DL*.
 
-## Lecturas (artículos, tutoriales, ...)
+#### Lecturas (artículos, tutoriales, ...)
 
 - [Tutoriales básicos de *Tensorflow* (muy claros)](https://www.tensorflow.org/get_started/)
 
-## Prácticas a desarrollar
+#### Prácticas a desarrollar
 
 - [Libreta para entender el funcionamiento básico de *Tensorflow*](libretas/intro_tensorflow.ipynb)
 
@@ -85,7 +85,7 @@ multidimensionales. A diferencia de *Tensorflow* que es el producto
 (libre) de una compañía, *Theano* es desarrollado por la comunidad
 científica bajo el modelo de software libre.
 
-## Lecturas (artículos, tutoriales, ...)
+#### Lecturas (artículos, tutoriales, ...)
 
 - [TutoriaL simple de *Theano* para el desarrollo de *DP* (sin Keras)](http://www.marekrei.com/blog/theano-tutorial/)
 
@@ -97,7 +97,7 @@ profundo el cual es independiente de la plataforma de resolución por
 gráfos de operaciones. *Keras* es una interface común pars
 *Tensorflow*, *Theano* y otras plataformas.
 
-## Lecturas (artículos, tutoriales, ...)
+#### Lecturas (artículos, tutoriales, ...)
 
 - [Curso gratuito de *DL* para desarrolladores, basado en Keras](http://course.fast.ai/index.html)
 

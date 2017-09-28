@@ -147,7 +147,7 @@ def softmax(z):
     -------
     
     """
-    y_hat = np.exp(z)
+    y_hat = np.exp(z- z.max())
     return y_hat / y_hat.sum(axis=1).reshape(-1, 1)
 
 
@@ -240,7 +240,7 @@ def perdida(Y, Y_est, tipo):
             -(np.log(Y_est[Y == 1]).sum() +
               np.log(1 - Y_est[Y == 0]).sum()) / Y.shape[0]
             if tipo is 'logistica' else
-            -np.log(Y_est[Y == 1]).sum() / Y.shape[0])
+            -np.log(Y_est[Y == 1]).mean())
 
 
 def guarda_rn(archivo, rn):
