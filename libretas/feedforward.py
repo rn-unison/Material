@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 
 """
-Modulo con las funciones de feedforward 
+Modulo con las funciones de feedforward
 para ser usadas con la libreta de jupyter
 backpropagation.ipynb
 
