@@ -47,6 +47,7 @@ profundo.
 
 - [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una unidad de salida *softmax*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/unidad%20softmax.ipynb)
 
+- [Libreta de *Jupyter* (Kernel 3.X) sobre el algoritmo de *backpropagation*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/backpropagation.ipynb)
 
 # Arquitecturas profundas (en general)
 
@@ -74,7 +75,7 @@ algoritmos de *DL*.
 
 #### Prácticas a desarrollar
 
-- [Libreta para entender el funcionamiento básico de *Tensorflow*](libretas/intro_tensorflow.ipynb)
+- [Libreta para entender el funcionamiento básico de *Tensorflow*](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb)
 
 ## Theano
 
