@@ -147,8 +147,8 @@ def softmax(z):
     -------
     
     """
-    y_hat = np.exp(z- z.max())
-    return y_hat / y_hat.sum(axis=1).reshape(-1, 1)
+    e = np.exp(z - z.max())
+    return e / e.sum(axis=0)
 
 
 def extendida(matriz):
