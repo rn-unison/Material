@@ -104,5 +104,9 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 # Redes convolucionales
 
+#### Presentaciones
+
+- [Una presentación introductoria de redes convolucionales](presentaciones/conv_nets.pdf)
+
 
 # Redes recurrentes
