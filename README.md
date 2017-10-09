@@ -75,20 +75,24 @@ algoritmos de *DL*.
 
 #### Prácticas a desarrollar
 
-- [Libreta para entender el funcionamiento básico de *Tensorflow*](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb)
+- [Libreta de *Jupyter* (Kernel 3.X) para entender el funcionamiento básico de *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb)
+- [Libreta de *Jupyter* (Kernel 3.X) para entender como programar una red neuronal hacia adelante sencilla en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/tensorflow_red_simple.ipynb)
 
-## Theano
+## PyTorch
 
-[Theano](http://www.deeplearning.net/software/theano/) es una
-biblioteca para Python diseñada para definir, optimizar y evaluar
-eficientemente expresiones matemáticas que involucren arreglos
-multidimensionales. A diferencia de *Tensorflow* que es el producto
-(libre) de una compañía, *Theano* es desarrollado por la comunidad
-científica bajo el modelo de software libre.
+[PyTorch](http://pytorch.org) es una plataforma relativamente nueva, y
+qye junto a *Tensorflow* mandaron al venerable *Theano* (pionero de
+los entornos para aprendizaje profundo) al retiro. PyTorch es basado
+100% en python a diferencia de *Tensorflow* el cual precompila en una
+plataforma externa. Una vez definida una red, *PyTorch* construye el
+grafo de operaciones *on the fly* (no se cual es la traducción
+correcta de este término, y *en el aire* no representa lo que quiere
+decir a mi entender).
 
 #### Lecturas (artículos, tutoriales, ...)
 
-- [TutoriaL simple de *Theano* para el desarrollo de *DP* (sin Keras)](http://www.marekrei.com/blog/theano-tutorial/)
+- [Ejemplos de uso de *PyTorch*](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#)
+
 
 ## Keras
 
