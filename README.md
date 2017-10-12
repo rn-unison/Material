@@ -1,3 +1,4 @@
+
 # El libro de texto sobre aprendizaje profundo
 
 [Deep Learning (I. Goodfellow, Yoshua Bengio y Aaron Courville),
@@ -55,6 +56,9 @@ profundo.
 
 - [Una presentación introductoria de *deep learning* por Y. LeCun (NYU/Facebook)](http://cilvr.cs.nyu.edu/lib/exe/fetch.php?media=deeplearning:dl-intro.pdf)
 
+- [Una guia para seleccionar arquitecturas profundas y su ajuste](http://www.deeplearningbook.org/slides/11_practical.pdf)
+
+- [Presentación sobre generalización y curvas de aprendizaje en arquitecturas profundas](http://www.deeplearningbook.org/slides/05_ml.pdf)
 
 
 # Plataformas de desarrollo
