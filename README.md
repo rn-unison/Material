@@ -118,3 +118,7 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 
 # Redes recurrentes
+
+#### Presentaciones
+
+- [Una presentación introductoria de redes recurrentes (de G. Hitton)](presentaciones/redes_recurrentes.pdf)
