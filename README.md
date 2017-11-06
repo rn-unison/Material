@@ -121,6 +121,9 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 #### Lecturas (artículos, tutoriales, ...)
 
+#### Presentaciones
+
+- [Una presentación introductoria de redes recurrentes (de G. Hitton)](presentaciones/redes_recurrentes.pdf)
 
 # Aprendizaje por refuerzo profundo
 
@@ -128,3 +131,4 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 - [Una presentación inicial sobre aprendizaje por refuerzo (presentación mía viejita)](presentaciones/rl_intro.pdf)
 - [Unas notas sobre aprendizaje por refuerzo con pseudocódigo](presentaciones/rl_ideas.pdf)
+
