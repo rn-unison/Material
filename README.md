@@ -1,4 +1,4 @@
-<img src="rn2.png" width="200" />
+<center><img src="rn2.png" width="200" /></center>
 
 # El libro de texto sobre aprendizaje profundo
 
