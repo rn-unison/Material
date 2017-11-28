@@ -121,6 +121,7 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 - [Libreta de *Jupyter* (Kernel 3.X) para crear un modelo de CNN en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/red_convolucional_simple.ipynb)
 
+
 # Redes recurrentes
 
 #### Presentaciones
@@ -146,3 +147,9 @@ gráfos de operaciones. *Keras* es una interface común pars
 - [Una presentación muy completa (y algo difícil) de *Deepmind*](presentaciones/deep_rl_deepmind.pdf)
 - [Una serie de posts sobre Deep RL de A. Juliani, enfocados a su implementación en *TensorFlow*](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [El tutorial de Karpahty sobre DRL](http://karpathy.github.io/2016/05/31/rl/)
+
+#### Prácticas a desarrollar
+
+- [Archivos en python para aprendizaje reforzado tipo tabular](codigo/rl_tabular)
+
+
