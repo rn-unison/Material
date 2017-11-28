@@ -117,6 +117,9 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 - [Una presentación introductoria de redes convolucionales](presentaciones/conv_nets.pdf)
 
+#### Prácticas a desarrollar
+
+- [Libreta de *Jupyter* (Kernel 3.X) para crear un modelo de CNN en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/red_convolucional_simple.ipynb)
 
 # Redes recurrentes
 
@@ -129,9 +132,6 @@ gráfos de operaciones. *Keras* es una interface común pars
 - [Un excelente artículo sobre redes tipo LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Redes recurrentes para la generación de texto](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
-#### Prácticas a desarrollar
-
-- [Libreta de *Jupyter* (Kernel 3.X) para crear un modelo de CNN en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/red_convolucional_simple.ipynb)
 
 # Aprendizaje por refuerzo profundo
 
