@@ -52,16 +52,16 @@
     El cerebro es una cosa bastante complicada, con partes, que si uno las
     empieza a manipular, el propietario muere generalmente. Por eso los
     métdos de simulación computacional son muy importantes.
-    
+
   \item[Para entender un tipo de computo paralelo].\\  Computo paralelo
     basado en la aplicación masiva de operaciones simples.
-    
+
   \item[\alert{Para resolver problemas prácticos usando aprendizaje}].\\
     A pesar que las redes neuronales no son un modelo preciso del
     cerebro, se pueden utilizar para resolver una gran cantidad de
     problemas prácticos.
   \end{description}
-  
+
 \end{frame}
 
 \begin{frame}
@@ -74,11 +74,11 @@
 \begin{frame}
   \frametitle{Sinapsis}
   \begin{itemize}
-  \item Cuando un impulso electrico viaja a través de un axón a una sinapsis, se transmite
-    a través de un líquiso neurotransmisor.
+  \item Cuando un impulso electrico viaja a través de un axón a una sinápsis, se transmite
+    a través de un líquido neurotransmisor.
   \item El impulso se transmite por difusión a las neuronas receptoras.
-  \item La efectividad de las sinapsis puede ser cambiada (peso sináptico).
-  \item La sinapisi es lenta, pero usa muy poca energía, y se adapta a partir de señales disponibles localmente.
+  \item La efectividad de las sinápsis puede ser cambiada (peso sináptico).
+  \item La sinápsis es lenta, pero usa muy poca energía, y se adapta a partir de señales disponibles localmente.
   \end{itemize}
 \end{frame}
 
@@ -130,20 +130,20 @@
 \begin{frame}
   \frametitle{Neuronas lineales}
   \begin{block}{}
-    $$ y = b + \sum_{i} x_i w_i $$
+    $$ y = b + \sum_{i} \omega_i x_i$$
   \end{block}
   \begin{itemize}
   \item Si hacemos aprender a esta neurona, podemos probar con
     neuronas más complicadas.
   \item $y$ es la \alert{salida}, $b$ es el \alert{sesgo}, $x_i$ la $i$--ésima
-    \alert{entrada} y $w_i$ el \alert{peso} en la $i$--ésima entrada.
+    \alert{entrada} y $\omega_i$ el \alert{peso} en la $i$--ésima entrada.
   \end{itemize}
 \end{frame}
 
 \begin{frame}
   \frametitle{Neuronas binarias}
   \begin{block}{}
-      $$ z = \sum_{i} x_i w_i $$
+      $$ z = \sum_{i} \omega_i x_i $$
       $$ y = \left\{
           \begin{array}{ll}
             1 & \text{si}\ z \ge \theta \\
@@ -164,7 +164,7 @@
 
   \frametitle{Neuronas binarias}
   \begin{block}{Representación alternativa}
-      $$ z = b + \sum_{i} x_i w_i $$
+      $$ z = b + \sum_{i} \omega_i x_i$$
       $$ y = \left\{
           \begin{array}{ll}
             1 & \text{si}\ z \ge 0 \\
@@ -182,14 +182,14 @@
 \begin{frame}
  \frametitle{Neuronas lineales rectificadas}
   \begin{block}{ReLU}
-      $$ z = b + \sum_{i} x_i w_i $$
+      $$ z = b + \sum_{i} \omega_i x_i$$
       $$ y = \left\{
           \begin{array}{ll}
             z & \text{si}\ z \ge 0 \\
             0 & \text{en otro caso}
           \end{array} \right. $$
   \end{block}
-  
+
   \begin{itemize}
   \item Relativamente reciente, muy rápido de calcular.
   \item Muy eficiente en problemas de aprendizaje profundo.
@@ -200,10 +200,10 @@
 \begin{frame}
  \frametitle{Neuronas sigmoidales}
   \begin{block}{Logística}
-      $$ z = b + \sum_{i} x_i w_i $$
+      $$ z = b + \sum_{i} \omega_i x_i$$
       $$ y = \frac{1}{1 + e^{-z}}$$
   \end{block}
-  
+
   \begin{itemize}
   \item Devuelve un valor real acotado, imitando una neurona binaria.
   \item Fácil de derivar (lo que es útil para el aprendizaje).
@@ -214,14 +214,14 @@
 \begin{frame}
  \frametitle{Neuronas estocásticas}
   \begin{block}{Estocástica}
-      $$ z = b + \sum_{i} x_i w_i $$
+      $$ z = b + \sum_{i} \omega_i x_i$$
       $$ P[s=1] = \frac{1}{1 + e^{-z}}$$
   \end{block}
-  
+
   \begin{itemize}
   \item Mismas ecuaciones que la logística, pero diferente significado.
   \item Probabilidad de tener un impulso en un intervalo de tiempo corto.
-  \item La salida es una distribución de Poisson.
+  \item La salida es una V.A. con una distribución de Poisson.
   \end{itemize}
 \end{frame}
 
@@ -285,20 +285,21 @@
   \item Método natural para modelar información en forma secuencial
   \item Habilidad para recordar información
   \end{itemize}
-  \begin{block}{Ejemplo (Ilya Sutskever, 2011)}
-    In 1974 Northern Denver had been overshadowed by CNL, and several
-    Irish intelligence agencies in the Mediterranean region. However,
-    on the Victoria, Kings Hebrew stated that Charles decided to
-    escape during an alliance. The mansion house was completed in
-    1882, the second in its bridge are omitted, while closing is the
-    proton reticulum composed below it aims, such that it is the
-    blurring of appearing on any well-paid type of box printer.
+  \begin{block}{Ejemplo (Fernando Alexis Martínez Valenzuela, 2017)}
+    señores de la vida como razón de la plaza de sangrese favor de la
+    integridad en el servicio público y el combate a la corrupción. se
+    queó el gobierno ha querido subrayar hoy la armonía constitucional
+    en que las inicias nuestra democracia, de la globalidad y del
+    conocimiento. tenemos todo. tenemos el gran potencial para que
+    cada mexicano escriba su propia historia de éxito. la correalidad
+    de la falta de empleo, que no se otraín someterla afirarse para el
+    desgreño, ausente de seriemos de corrupción.
   \end{block}
 \end{frame}
 
 \begin{frame}
   \frametitle{Redes recurrentes simétricas}
-  
+
   \begin{itemize}
   \item Redes recurrentes, donde todas las conexiones son en ambas
     direcciones y con el mismo peso en ambas direcciones.
@@ -313,7 +314,7 @@
 \section{El perceptrón}
 
 \begin{frame}
-  \frametitle{El preceptrón}
+  \frametitle{El perceptrón}
   \begin{block}{}
     Y ahora regresemos a la más simple de las redes neuronales hacia
     adelante: \alert{El perceptrón}
@@ -421,7 +422,7 @@
   \frametitle{Problemas con el aprendizaje}
 
   \begin{itemize}
-  \item Una red con solo dos capas es equivalente a un 
+  \item Una red con solo dos capas es equivalente a un
     patron rígido por cada forma.
   \item El ganador es el patron con más traslape.
   \item Los dígitos escritos a mano son mucho más complejos.
@@ -443,7 +444,7 @@ elementales no linealmente separables.
   \begin{center}
     \includegraphics[width=0.8\textwidth]{imag/xor_perceptron.pdf}
   \end{center}
-  
+
 \end{frame}
 
 \begin{frame}
@@ -452,7 +453,7 @@ El perceptrón no puede resolver patrones simples con translación.
   \begin{center}
     \includegraphics[width=0.7\textwidth]{imag/tanslacion_perceptron.pdf}
   \end{center}
-  
+
 \end{frame}
 
 \begin{frame}
@@ -490,19 +491,7 @@ El perceptrón no puede resolver patrones simples con translación.
       ser esas nuevas características.
     \end{itemize}
   \end{itemize}
-  
+
 \end{frame}
 
-\begin{frame}
-  \frametitle{¿Que sigue?}
-  
-  \begin{block}{}
-    Ahora falta ver
-    \begin{itemize}
-    \item Como aprender en forma genérica (sin capas ocultas)
-    \item Como generalizar esto a una o varias capas ocultas.
-    \end{itemize}
-  \end{block}
-\end{frame}
 \end{document}
-
