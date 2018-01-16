@@ -22,6 +22,9 @@ profundo.
 
 #### Prácticas a desarrollar
 
+
+- Libreta de *Jupyter* (Kernel Python 3.X) para practicar con `numpy` y `matplotlib`[(Para ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_numpy.ipynb) [(Para descargar)](libretas/intro_numpy.zip).
+
 - [Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/Redes%20neuronales%20hacia%20adelante.ipynb)
 
 # Aprendizaje
