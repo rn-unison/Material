@@ -14,11 +14,21 @@ traducible a pdf u otros formatos. Es considerado desde hace 3 años
 que se puso en linea el primer borrador como la biblia del aprendizaje
 profundo.
 
-# Redes neuronales
+# Introducción y preliminares
 
 #### Presentaciones
 
 - [Introducción a las redes neuronales](presentaciones/intro_rn.pdf)
+
+#### Lecturas (artículos, tutoriales, ...)
+
+- [Una introducción a la probabilidad (por Arian Maleki and Tom Do de Stanford)](articulos/cs229-prob.pdf)
+
+#### Prácticas a desarrollar
+
+- Libreta de *Jupyter* (Kernel Python 3.X) para practicar con `numpy` y `matplotlib`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_numpy.ipynb) [(descargar)](libretas/intro_numpy.zip).
+
+# Redes neuronales
 
 #### Prácticas a desarrollar
 
