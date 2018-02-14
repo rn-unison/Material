@@ -46,6 +46,7 @@ profundo.
 
 #### Prácticas a desarrollar
 
+<!---
 - [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida lineal.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20lineal.ipynb)
 
 - [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida logística.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20logistica.ipynb)
@@ -53,6 +54,8 @@ profundo.
 - [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una unidad de salida *softmax*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/unidad%20softmax.ipynb)
 
 - [Libreta de *Jupyter* (Kernel 3.X) sobre el algoritmo de *backpropagation*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/backpropagation.ipynb)
+
+-->
 
 # Arquitecturas profundas (en general)
 
@@ -83,8 +86,12 @@ algoritmos de *DL*.
 
 #### Prácticas a desarrollar
 
+<!---
+
 - [Libreta de *Jupyter* (Kernel 3.X) para entender el funcionamiento básico de *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb)
 - [Libreta de *Jupyter* (Kernel 3.X) para entender como programar una red neuronal hacia adelante sencilla en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/tensorflow_red_simple.ipynb)
+
+-->
 
 ## PyTorch
 
@@ -101,6 +108,8 @@ decir a mi entender).
 
 - [Ejemplos de uso de *PyTorch*](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#)
 
+- [Curso gratuito de *DL* para desarrolladores, basado en PyTorch](http://course.fast.ai/index.html)
+
 
 ## Keras
 
@@ -112,7 +121,6 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 #### Lecturas (artículos, tutoriales, ...)
 
-- [Curso gratuito de *DL* para desarrolladores, basado en Keras](http://course.fast.ai/index.html)
 
 # Redes convolucionales
 
@@ -154,5 +162,3 @@ gráfos de operaciones. *Keras* es una interface común pars
 #### Prácticas a desarrollar
 
 - [Archivos en python para aprendizaje reforzado tipo tabular](codigo/rl_tabular)
-
-
