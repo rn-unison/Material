@@ -28,13 +28,8 @@ profundo.
 
 - Libreta de *Jupyter* (Kernel Python 3.X) para practicar con `numpy` y `matplotlib`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_numpy.ipynb) [(descargar)](libretas/intro_numpy.zip).
 
+
 # Redes neuronales
-
-#### Prácticas a desarrollar
-
-- [Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/Redes%20neuronales%20hacia%20adelante.ipynb)
-
-# Aprendizaje
 
 #### Presentaciones
 
@@ -51,6 +46,7 @@ profundo.
 
 - [Una página que explica muy claramente las unidades *softmax* y su aprendizaje](https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/)
 
+
 #### Prácticas a desarrollar
 
 <!---
@@ -62,9 +58,38 @@ profundo.
 
 - [Libreta de *Jupyter* (Kernel 3.X) sobre el algoritmo de *backpropagation*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/backpropagation.ipynb)
 
+- [Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/Redes%20neuronales%20hacia%20adelante.ipynb)
 -->
 
-# Arquitecturas profundas (en general)
+
+
+# Arquitecturas profundas (en general) y plataformas de desarrollo
+
+#### Plataformas de desarrollo
+
+- [Tensorflow](https://www.tensorflow.org) es una biblioteca dinámica
+  de computo numérico basado en el concepto de grafos de flujo de
+  datos. *Tensorflow* se desarrolló inicialmente por el grupo de
+  investigación en aprendizaje máquina de *Google research* y poco a
+  poco se va convirtiendo en el medio más popular para el desarrollo
+  de algoritmos de *DL*.
+
+
+- [PyTorch](http://pytorch.org) es una plataforma relativamente nueva,
+  y que junto a *Tensorflow* mandaron al venerable *Theano* (pionero
+  de los entornos para aprendizaje profundo) al retiro. PyTorch es
+  basado 100% en python a diferencia de *Tensorflow* el cual
+  precompila en una plataforma externa. Una vez definida una red,
+  *PyTorch* construye el grafo de operaciones *on the fly* (no se cual
+  es la traducción correcta de este término, y *en el aire* no
+  representa lo que quiere decir a mi entender).
+
+- [Keras](https://keras.io) es un modulo de *Python* que ofrece un
+  marco general de desarrollo de soluciones a problemas con
+  aprendizaje profundo el cual es independiente de la plataforma de
+  resolución por gráfos de operaciones. *Keras* es una interface común
+  pars *Tensorflow*, *Theano* y otras plataformas.
+
 
 #### Presentaciones
 
@@ -75,21 +100,15 @@ profundo.
 - [Presentación sobre generalización y curvas de aprendizaje en arquitecturas profundas](http://www.deeplearningbook.org/slides/05_ml.pdf)
 
 
-# Plataformas de desarrollo
-
-
-## Tensorflow
-
-[Tensorflow](https://www.tensorflow.org) es una biblioteca dinámica de
-computo numérico basado en el concepto de grafos de flujo de
-datos. *Tensorflow* se desarrolló inicialmente por el grupo de
-investigación en aprendizaje máquina de *Google research* y poco a
-poco se va convirtiendo en el medio más popular para el desarrollo de
-algoritmos de *DL*.
 
 #### Lecturas (artículos, tutoriales, ...)
 
 - [Tutoriales básicos de *Tensorflow* (muy claros)](https://www.tensorflow.org/get_started/)
+
+- [Ejemplos de uso de *PyTorch*](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#)
+
+- [Curso gratuito de *DL* para desarrolladores, basado en PyTorch](http://course.fast.ai/index.html)
+
 
 #### Prácticas a desarrollar
 
@@ -100,33 +119,6 @@ algoritmos de *DL*.
 
 -->
 
-## PyTorch
-
-[PyTorch](http://pytorch.org) es una plataforma relativamente nueva, y
-qye junto a *Tensorflow* mandaron al venerable *Theano* (pionero de
-los entornos para aprendizaje profundo) al retiro. PyTorch es basado
-100% en python a diferencia de *Tensorflow* el cual precompila en una
-plataforma externa. Una vez definida una red, *PyTorch* construye el
-grafo de operaciones *on the fly* (no se cual es la traducción
-correcta de este término, y *en el aire* no representa lo que quiere
-decir a mi entender).
-
-#### Lecturas (artículos, tutoriales, ...)
-
-- [Ejemplos de uso de *PyTorch*](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#)
-
-- [Curso gratuito de *DL* para desarrolladores, basado en PyTorch](http://course.fast.ai/index.html)
-
-
-## Keras
-
-[Keras](https://keras.io) es un modulo de *Python* que ofrece un marco
-general de desarrollo de soluciones a problemas con aprendizaje
-profundo el cual es independiente de la plataforma de resolución por
-gráfos de operaciones. *Keras* es una interface común pars
-*Tensorflow*, *Theano* y otras plataformas.
-
-#### Lecturas (artículos, tutoriales, ...)
 
 
 # Redes convolucionales
@@ -135,9 +127,15 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 - [Una presentación introductoria de redes convolucionales](presentaciones/conv_nets.pdf)
 
+#### Lecturas (artículos, tutoriales, ...)
+
+
 #### Prácticas a desarrollar
 
+<!---
 - [Libreta de *Jupyter* (Kernel 3.X) para crear un modelo de CNN en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/red_convolucional_simple.ipynb)
+-->
+
 
 
 # Redes recurrentes
@@ -150,6 +148,9 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 - [Un excelente artículo sobre redes tipo LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Redes recurrentes para la generación de texto](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
+
+#### Prácticas a desarrollar
 
 
 # Aprendizaje por refuerzo profundo
@@ -168,4 +169,7 @@ gráfos de operaciones. *Keras* es una interface común pars
 
 #### Prácticas a desarrollar
 
+<!---
 - [Archivos en python para aprendizaje reforzado tipo tabular](codigo/rl_tabular)
+
+-->
