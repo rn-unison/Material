@@ -49,6 +49,10 @@ profundo.
 
 #### Prácticas a desarrollar
 
+- Libreta de *Jupyter* (Kernel Python 3.X) sobre aprendizaje de una neurona lineal`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona_lineal.ipynb) [(descargar)](libretas/neurona_lineal.zip).
+
+- Libreta de *Jupyter* (Kernel Python 3.X) sobre aprendizaje de una neurona logística`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona_logistica.ipynb) [(descargar)](libretas/neurona_logistica.zip).
+
 <!---
 - [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida lineal.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20lineal.ipynb)
 
