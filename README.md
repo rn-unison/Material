@@ -26,7 +26,7 @@ profundo.
 
 #### Prácticas a desarrollar
 
-- Libreta de *Jupyter* (Python 3.X): Practica de `numpy` y `matplotlib`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_numpy.ipynb) [(descargar)](libretas/intro_numpy.zip).
+- Libreta de *Jupyter* (Python 3.X): practica de `numpy` y `matplotlib`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_numpy.ipynb) [(descargar)](libretas/intro_numpy.zip).
 
 
 # Redes neuronales
@@ -55,17 +55,7 @@ profundo.
 
 - Libreta de *Jupyter* (Python 3.X): aprendizaje de una unidad softmax [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/unidad_softmax.ipynb) [(descargar)](libretas/unidad_softmax.zip).
 
-<!---
-- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida lineal.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20lineal.ipynb)
-
-- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una neurona de salida logística.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona%20logistica.ipynb)
-
-- [Libreta de *Jupyter* (Kernel 3.X) sobre aprendizaje de una unidad de salida *softmax*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/unidad%20softmax.ipynb)
-
-- [Libreta de *Jupyter* (Kernel 3.X) sobre el algoritmo de *backpropagation*.](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/backpropagation.ipynb)
-
-- [Libreta de *Jupyter* (Kernel Python 3.X) para practicar el algoritmo de *feedforward* ](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/Redes%20neuronales%20hacia%20adelante.ipynb)
--->
+- Libreta de *Jupyter* (Python 3.X): redes hacia adelante [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/redes_neuronal_hacia_adelante.ipynb) [(descargar)](libretas/redes_neuronal_hacia_adelante.zip).
 
 
 
@@ -109,6 +99,8 @@ profundo.
 
 #### Lecturas (artículos, tutoriales, ...)
 
+- [Un artículo sobre lo que todavía no se puede hacer con *deep learning*](articulos/dl_critical.pdf)
+
 - [Tutoriales básicos de *Tensorflow* (muy claros)](https://www.tensorflow.org/get_started/)
 
 - [Ejemplos de uso de *PyTorch*](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#)
@@ -118,13 +110,9 @@ profundo.
 
 #### Prácticas a desarrollar
 
-<!---
+- Libreta de *Jupyter* (Python 3.X): conceptos básicos de TensorFlow  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb) [(descargar)](libretas/intro_tensorflow.zip).
 
-- [Libreta de *Jupyter* (Kernel 3.X) para entender el funcionamiento básico de *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb)
-- [Libreta de *Jupyter* (Kernel 3.X) para entender como programar una red neuronal hacia adelante sencilla en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/tensorflow_red_simple.ipynb)
-
--->
-
+- Libreta de *Jupyter* (Python 3.X): red neuronal sencilla en TensorFlow  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/tensorflow_red_simple.ipynb) [(descargar)](libretas/tensorflow_red_simple.zip).
 
 
 # Redes convolucionales
