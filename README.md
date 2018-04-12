@@ -121,14 +121,16 @@ profundo.
 
 - [Una presentación introductoria de redes convolucionales](presentaciones/conv_nets.pdf)
 
+- [Una presentación sobre transferencia de estilo en imagenes utilizando redes neuronales convolucionales](presentaciones/style_transfer.pdf)
+
 #### Lecturas (artículos, tutoriales, ...)
+
+- [El artículo original de *style transfer* de Gatty *et. al*, 2016, en versión libre](articulos/style_transfer.pdf)
 
 
 #### Prácticas a desarrollar
 
-<!---
 - [Libreta de *Jupyter* (Kernel 3.X) para crear un modelo de CNN en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/red_convolucional_simple.ipynb)
--->
 
 
 
