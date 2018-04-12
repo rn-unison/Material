@@ -127,6 +127,7 @@ profundo.
 
 - [El artículo original de *style transfer* de Gatty *et. al*, 2016, en versión libre](articulos/style_transfer.pdf)
 
+- [Página de *Github* con lo necesario para poder implementar *Style Transfer* con TensorFlow](https://www.anishathalye.com/2015/12/19/an-ai-that-can-mimic-any-artist/)
 
 #### Prácticas a desarrollar
 
