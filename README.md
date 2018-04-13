@@ -129,6 +129,8 @@ profundo.
 
 - [Página de *Github* con lo necesario para poder implementar *Style Transfer* con TensorFlow](https://www.anishathalye.com/2015/12/19/an-ai-that-can-mimic-any-artist/)
 
+-[Una revisión muy clara sobre arquitecturas convolucionales para detección de objetos en imágenes](https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9)
+
 #### Prácticas a desarrollar
 
 - [Libreta de *Jupyter* (Kernel 3.X) para crear un modelo de CNN en *Tensorflow* (1.3 o más reciente)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/red_convolucional_simple.ipynb)

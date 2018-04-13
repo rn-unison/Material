@@ -1,0 +1,185 @@
+% Created 2018-04-13 Fri 10:06
+% Intended LaTeX compiler: pdflatex
+\documentclass[presentation, t]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\setbeamertemplate{navigation symbols}{}
+% typeset source code listings
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{mc@lstidentifier}{HTML}{000000} % black
+\definecolor{mc@lstcomment}{HTML}{008200} % green
+\definecolor{mc@lststring}{HTML}{FF5500} % orange
+\definecolor{mc@lstkeyword}{HTML}{0000FF} % blue
+\definecolor{mc@lstbackground}{HTML}{FFFFCC} % light yellow
+\definecolor{mc@lstframe}{HTML}{FFEE88} % dark yellow
+\lstdefinelanguage{org}{%
+morekeywords={:results, :session, :var, :noweb, :exports},
+sensitive=false,
+morestring=[b]",
+morecomment=[l]{\#},
+}
+\lstset{%
+lineskip=-0.1em,
+%
+basicstyle=\ttfamily\scriptsize, % font that is used for the code
+identifierstyle=\color{mc@lstidentifier},
+commentstyle=\color{mc@lstcomment}\itshape,
+stringstyle=\color{mc@lststring},
+keywordstyle=\color{mc@lstkeyword},
+%
+extendedchars=true,
+inputencoding=utf8,
+upquote, %
+tabsize=4, % set default tabsize to 4 spaces
+showtabs=false, % show tabs within strings adding particular underscores
+%  tab=$\to$,
+showspaces=false, % show spaces adding particular underscores
+showstringspaces=false, % underline spaces within strings
+%
+numbers=left, % where to put the line numbers
+stepnumber=0, % step between two line numbers
+numberstyle=\tiny, % line number font size
+%
+captionpos=b, % set the caption position to `bottom'
+%
+xleftmargin=0.4em, % text to the right
+xrightmargin=0.4em, % text to the left
+breaklines=false, % don't break long lines of code
+%
+frame=single, % add a frame around the code
+framexleftmargin=0pt, % frame back to the left
+framexrightmargin=0pt, % frame back to the right
+backgroundcolor=\color{mc@lstbackground}, % set the background color
+rulecolor=\color{mc@lstframe}, % frame color
+%
+columns=flexible, % try not to ruin the spacing intended by the font designer
+keepspaces=true, % don't drop spaces to fix column alignment
+%
+mathescape, % allow escaping to (La)TeX mode within $..$
+% escapechar=², % allow escaping to (La)TeX mode within ²..²
+% The backquote was NOT judicious: in some code (comments), I wrap vars
+% between such a backquote (`var')
+%
+% conversion of UTF-8 chars to latin1
+literate=
+{á}{{\'a}}1
+{à}{{\`a}}1
+{â}{{\^a}}1
+{ä}{{\"a}}1
+{ç}{{\c{c}}}1
+{é}{{\color{black}\'e}}1
+{è}{{\`e}}1
+{ê}{{\^e}}1
+{ë}{{\"e}}1
+{í}{{\'i}}1
+{ì}{{\`i}}1
+{î}{{\^i}}1
+{ï}{{\"i}}1
+{ó}{{\'o}}1
+{ò}{{\`o}}1
+{ô}{{\^o}}1
+{ö}{{\"o}}1
+{ú}{{\'u}}1
+{ù}{{\`u}}1
+{û}{{\^u}}1
+{ü}{{\"u}}1
+{Á}{{\'A}}1
+{À}{{\`A}}1
+{Â}{{\^A}}1
+{Ä}{{\"A}}1
+{Ç}{{\c{C}}}1
+{É}{{\'E}}1
+{È}{{\`E}}1
+{Ê}{{\^E}}1
+{Ë}{{\"E}}1
+{Í}{{\'I}}1
+{Ì}{{\`I}}1
+{Î}{{\^I}}1
+{Ï}{{\"I}}1
+{Ó}{{\'O}}1
+{Ò}{{\`O}}1
+{Ô}{{\^O}}1
+{Ö}{{\"O}}1
+{Ú}{{\'U}}1
+{Ù}{{\`U}}1
+{Û}{{\^U}}1
+{Ü}{{\"U}}1
+}
+\definecolor{TeXbackgroundcolor}{HTML}{F1F9EF}
+\definecolor{TeXrulecolor}{HTML}{D4E8E3}
+\lstdefinestyle{TeX}{backgroundcolor=\color{TeXbackgroundcolor},rulecolor=\color{TeXrulecolor}}
+\definecolor{mylinkcolor}{HTML}{006DAF}
+\hypersetup{colorlinks=true, linkcolor=mylinkcolor, urlcolor=mylinkcolor}
+\usetheme{Madrid}
+\author{\href{mailto:julio.waissman@unison.mx}{Julio Waissman}}
+\date{12 de abril de 2018}
+\title{Una revisión sobre redes convolucionales para localización de objetos en imágenes}
+\institute[Unison]{Licenciatura en Ciencias de la Computación\\Universidad de Sonora}
+\titlegraphic{\includegraphics[width=\textwidth,height=.3\textheight]{portada.png}}
+\usepackage[spanish]{babel}
+\usepackage[spanish]{bm}
+\hypersetup{
+ pdfauthor={\href{mailto:julio.waissman@unison.mx}{Julio Waissman}},
+ pdftitle={Una revisión sobre redes convolucionales para localización de objetos en imágenes},
+ pdfkeywords={},
+ pdfsubject={Presentación para la SIDM},
+ pdfcreator={Emacs 25.1.50.2 (Org mode 9.1.2)},
+ pdflang={Spanish}}
+\begin{document}
+
+\maketitle
+
+
+\begin{frame}[label={sec:org6cf74ba}]{Plan de la presentación}
+\begin{enumerate}
+\item ¿Qué es la localización de objetos en imágenes?
+\item Arquitectura RCNN
+\begin{itemize}
+\item La arquitectura básica: RCNN
+\item Su primer modificación: Fast RCNN
+\item La que se emplea actualmente: Fastest RCNN\vfill
+\end{itemize}
+\item Arquitecturas alternativas
+\begin{itemize}
+\item R-FCN
+\item SSD\vfill
+\end{itemize}
+\item Conclusiones\vfill
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}[label={sec:orgeb11ad6}]{Redes convolucionales (CNN)}
+\framesubtitle{RCNN}
+
+\vfill
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.99\textwidth]{./imagenes/rcnn.png}
+\end{figure}\vfill
+\end{frame}
+
+
+\begin{frame}[label={sec:orgba9caee}]{Redes convolucionales (CNN)}
+\framesubtitle{Fast RCNN}
+
+\vfill
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.90\textwidth]{./imagenes/fast-rcnn.png}
+\end{figure}\vfill
+\end{frame}
+\end{document}

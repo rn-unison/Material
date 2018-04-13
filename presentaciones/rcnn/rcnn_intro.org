@@ -1,0 +1,56 @@
+#+STARTUP: beamer
+#+TITLE:     Una revisión sobre redes convolucionales para localización de objetos en imágenes
+#+AUTHOR:    \href{mailto:julio.waissman@unison.mx}{Julio Waissman}
+#+DATE:      12 de abril de 2018
+# #+BEAMER_HEADER: \subtitle{¿Cómo y porqué funciona?}
+#+BEAMER_HEADER: \institute[Unison]{Licenciatura en Ciencias de la Computación\\Universidad de Sonora}
+# #+BEAMER_HEADER: \titlegraphic{\includegraphics[height=1.5cm]{letragrama.png}}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[width=\textwidth,height=.3\textheight]{portada.png}}
+
+# Agrega una imagen en media presentación
+
+#+DESCRIPTION: Presentación para la SIDM
+#+LANGUAGE:  es
+
+#+INCLUDE: "./setup.org"
+
+
+* Plan de la presentación                                           :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+
+1. ¿Qué es la localización de objetos en imágenes?
+2. Arquitectura RCNN
+   - La arquitectura básica: RCNN
+   - Su primer modificación: Fast RCNN
+   - La que se emplea actualmente: Fastest RCNN\vfill
+3. Arquitecturas alternativas
+   - R-FCN
+   - SSD\vfill
+4. Conclusiones\vfill
+
+
+* Redes convolucionales (CNN)                                       :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+#+Beamer: \framesubtitle{RCNN}
+
+\vfill
+#+ATTR_LATEX: :float t
+#+ATTR_LaTeX: :width 0.99\textwidth
+[[./imagenes/rcnn.png]]\vfill
+
+
+* Redes convolucionales (CNN)                                       :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+#+Beamer: \framesubtitle{Fast RCNN}
+
+\vfill
+
+#+ATTR_LATEX: :float t
+#+ATTR_LaTeX: :width 0.90\textwidth
+[[./imagenes/fast-rcnn.png]]\vfill
