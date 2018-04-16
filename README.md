@@ -22,40 +22,57 @@ profundo.
 
 #### Lecturas (artículos, tutoriales, ...)
 
-- [Una introducción a la probabilidad (por Arian Maleki and Tom Do de Stanford)](articulos/cs229-prob.pdf)
+- [Una introducción a la probabilidad (por Arian Maleki and Tom Do de
+  Stanford)](articulos/cs229-prob.pdf)
 
 #### Prácticas a desarrollar
 
-- Libreta de *Jupyter* (Python 3.X): practica de `numpy` y `matplotlib`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_numpy.ipynb) [(descargar)](libretas/intro_numpy.zip).
+- Libreta de *Jupyter* (Python 3.X): practica de `numpy` y
+  `matplotlib`[(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_numpy.ipynb)
+  [(descargar)](libretas/intro_numpy.zip).
 
 
 # Redes neuronales
 
 #### Presentaciones
 
-- [Presentación de Geoffrey Hinton sobre aprendizaje en una neurona](presentaciones/aprendizaje_una_neurona.pdf)
+- [Presentación de Geoffrey Hinton sobre aprendizaje en una
+  neurona](presentaciones/aprendizaje_una_neurona.pdf)
 
-- [Presentación sobre aprendizaje en varias neuronas](presentaciones/aprendizaje_red_neuronal.pdf)
+- [Presentación sobre aprendizaje en varias
+  neuronas](presentaciones/aprendizaje_red_neuronal.pdf)
 
 
 #### Lecturas (artículos, tutoriales, ...)
 
-- [El artículo original donde se propone el algoritmo de *back-propagation*](articulos/Learning-representations-by-back-propagating-errors.pdf)
+- [El artículo original donde se propone el algoritmo de
+  *back-propagation*](articulos/Learning-representations-by-back-propagating-errors.pdf)
 
-- [Un artículo muy bueno sobre *b-prop* y consejos útiles](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
+- [Un artículo muy bueno sobre *b-prop* y consejos
+  útiles](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
 
-- [Una página que explica muy claramente las unidades *softmax* y su aprendizaje](https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/)
+- [Una página que explica muy claramente las unidades *softmax* y su
+  aprendizaje](https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/)
 
 
 #### Prácticas a desarrollar
 
-- Libreta de *Jupyter* (Python 3.X): aprendizaje de una neurona lineal [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona_lineal.ipynb) [(descargar)](libretas/neurona_lineal.zip).
+- Libreta de *Jupyter* (Python 3.X): aprendizaje de una neurona lineal
+  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona_lineal.ipynb)
+  [(descargar)](libretas/neurona_lineal.zip).
 
-- Libreta de *Jupyter* (Python 3.X): aprendizaje de una neurona logística [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona_logistica.ipynb) [(descargar)](libretas/neurona_logistica.zip).
+- Libreta de *Jupyter* (Python 3.X): aprendizaje de una neurona
+  logística
+  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/neurona_logistica.ipynb)
+  [(descargar)](libretas/neurona_logistica.zip).
 
-- Libreta de *Jupyter* (Python 3.X): aprendizaje de una unidad softmax [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/unidad_softmax.ipynb) [(descargar)](libretas/unidad_softmax.zip).
+- Libreta de *Jupyter* (Python 3.X): aprendizaje de una unidad softmax
+  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/unidad_softmax.ipynb)
+  [(descargar)](libretas/unidad_softmax.zip).
 
-- Libreta de *Jupyter* (Python 3.X): redes hacia adelante [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/redes_neuronal_hacia_adelante.ipynb) [(descargar)](libretas/redes_neuronal_hacia_adelante.zip).
+- Libreta de *Jupyter* (Python 3.X): redes hacia adelante
+  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/redes_neuronal_hacia_adelante.ipynb)
+  [(descargar)](libretas/redes_neuronal_hacia_adelante.zip).
 
 
 
@@ -89,47 +106,68 @@ profundo.
 
 #### Presentaciones
 
-- [Una presentación introductoria de *deep learning* por Y. LeCun (NYU/Facebook)](http://cilvr.cs.nyu.edu/lib/exe/fetch.php?media=deeplearning:dl-intro.pdf)
+- [Una presentación introductoria de *deep learning* por Y. LeCun
+  (NYU/Facebook)](http://cilvr.cs.nyu.edu/lib/exe/fetch.php?media=deeplearning:dl-intro.pdf)
 
-- [Una guia para seleccionar arquitecturas profundas y su ajuste](http://www.deeplearningbook.org/slides/11_practical.pdf)
+- [Una guia para seleccionar arquitecturas profundas y su
+  ajuste](http://www.deeplearningbook.org/slides/11_practical.pdf)
 
-- [Presentación sobre generalización y curvas de aprendizaje en arquitecturas profundas](http://www.deeplearningbook.org/slides/05_ml.pdf)
+- [Presentación sobre generalización y curvas de aprendizaje en
+  arquitecturas
+  profundas](http://www.deeplearningbook.org/slides/05_ml.pdf)
 
 
 
 #### Lecturas (artículos, tutoriales, ...)
 
-- [Un artículo sobre lo que todavía no se puede hacer con *deep learning*](articulos/dl_critical.pdf)
+- [Un artículo sobre lo que todavía no se puede hacer con *deep
+  learning*](articulos/dl_critical.pdf)
 
-- [Tutoriales básicos de *Tensorflow* (muy claros)](https://www.tensorflow.org/get_started/)
+- [Tutoriales básicos de *Tensorflow* (muy
+  claros)](https://www.tensorflow.org/get_started/)
 
-- [Ejemplos de uso de *PyTorch*](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#)
+- [Ejemplos de uso de
+  *PyTorch*](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html#)
 
-- [Curso gratuito de *DL* para desarrolladores, basado en PyTorch](http://course.fast.ai/index.html)
+- [Curso gratuito de *DL* para desarrolladores, basado en
+  PyTorch](http://course.fast.ai/index.html)
 
 
 #### Prácticas a desarrollar
 
-- Libreta de *Jupyter* (Python 3.X): conceptos básicos de TensorFlow  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb) [(descargar)](libretas/intro_tensorflow.zip).
+- Libreta de *Jupyter* (Python 3.X): conceptos básicos de TensorFlow
+  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/intro_tensorflow.ipynb)
+  [(descargar)](libretas/intro_tensorflow.zip).
 
-- Libreta de *Jupyter* (Python 3.X): red neuronal sencilla en TensorFlow  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/tensorflow_red_simple.ipynb) [(descargar)](libretas/tensorflow_red_simple.zip).
+- Libreta de *Jupyter* (Python 3.X): red neuronal sencilla en
+  TensorFlow
+  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/tensorflow_red_simple.ipynb)
+  [(descargar)](libretas/tensorflow_red_simple.zip).
 
 
 # Redes convolucionales
 
 #### Presentaciones
 
-- [Una presentación introductoria de redes convolucionales](presentaciones/conv_nets.pdf)
+- [Una presentación introductoria de redes
+  convolucionales](presentaciones/conv_nets.pdf)
 
-- [Una presentación sobre transferencia de estilo en imagenes utilizando redes neuronales convolucionales](presentaciones/style_transfer.pdf)
+- [Una presentación sobre transferencia de estilo en imagenes
+  utilizando redes neuronales
+  convolucionales](presentaciones/style_transfer.pdf)
 
 #### Lecturas (artículos, tutoriales, ...)
 
-- [El artículo original de *style transfer* de Gatty *et. al*, 2016, en versión libre](articulos/style_transfer.pdf)
+- [El artículo original de *style transfer* de Gatty *et. al*, 2016,
+  en versión libre](articulos/style_transfer.pdf)
 
-- [Página de *Github* con lo necesario para poder implementar *Style Transfer* con TensorFlow](https://www.anishathalye.com/2015/12/19/an-ai-that-can-mimic-any-artist/)
+- [Página de *Github* con lo necesario para poder implementar *Style
+  Transfer* con
+  TensorFlow](https://www.anishathalye.com/2015/12/19/an-ai-that-can-mimic-any-artist/)
 
--[Una revisión muy clara sobre arquitecturas convolucionales para detección de objetos en imágenes](https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9)
+- [Una revisión muy clara sobre arquitecturas convolucionales para
+detección de objetos en
+imágenes](https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9)
 
 #### Prácticas a desarrollar
 

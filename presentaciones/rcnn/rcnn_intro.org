@@ -31,11 +31,57 @@
 4. Conclusiones\vfill
 
 
-* Redes convolucionales (CNN)                                       :B_frame:
+
+* Detección de objetos en imágenes                                  :B_frame:
   :PROPERTIES:
   :BEAMER_env: frame
   :END:
-#+Beamer: \framesubtitle{RCNN}
+
+1. Redes convolucionales para tratamiento de imágenes\vfill
+
+2. Reconocimiento de objetos en imágenes, la aplicación más exitosa de
+   las CNN\vfill
+
+3. Localización de objetos en imágenes es parecido a aplicar el
+   reconocimiento en muchas subimágenes y luego fusionar la
+   información\vfill
+
+
+
+
+
+* Redes convolucionales basadas en regiones (RCNN)                  :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+
+1. La primera red convolucional para detección de objetos
+
+2. Es la base de todas las redes siguientes, pero solo se utiliza
+   actualmente como método ilustrativo.
+
+3. Muy lenta, implica el entrenamiento de muchos métodos
+
+
+
+* Redes convolucionales basadas en regiones (RCNN)                  :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+#+Beamer: \framesubtitle{Algortimo general}
+
+1. Escanea la imágen de entrada utilizando un algoritmo llamado /Selective Search/,
+   y genera al rededor de 2000 regones para probar si en éstas se encuentra algun objeto.
+
+2. Ejecuta una red convolucional (capas convolucionales y de /max pooling/ por cada una de las regiones.
+
+3. Toma la salida de cada una de dichas CNNs.
+
+* Redes convolucionales basadas en regiones (RCNN)                  :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+#+Beamer: \framesubtitle{Esquema general}
 
 \vfill
 #+ATTR_LATEX: :float t
