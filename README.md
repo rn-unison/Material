@@ -189,6 +189,10 @@ imágenes](https://towardsdatascience.com/deep-learning-for-object-detection-a-c
 
 #### Prácticas a desarrollar
 
+- Libreta de *Jupyter* (Python 3.X): modelo de generación de texto con redes recurrentes
+  [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/redes_recurrentes.ipynb)
+  [(descargar)](libretas/neurona_lineal.zip).
+
 
 # Aprendizaje por refuerzo profundo
 
@@ -204,9 +208,11 @@ imágenes](https://towardsdatascience.com/deep-learning-for-object-detection-a-c
 - [Una serie de posts sobre Deep RL de A. Juliani, enfocados a su implementación en *TensorFlow*](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 - [El tutorial de Karpahty sobre DRL](http://karpathy.github.io/2016/05/31/rl/)
 
-#### Prácticas a desarrollar
 
 <!---
+
+#### Prácticas a desarrollar
+
 - [Archivos en python para aprendizaje reforzado tipo tabular](codigo/rl_tabular)
 
 -->
