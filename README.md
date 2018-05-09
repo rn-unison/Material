@@ -191,7 +191,7 @@ imágenes](https://towardsdatascience.com/deep-learning-for-object-detection-a-c
 
 - Libreta de *Jupyter* (Python 3.X): modelo de generación de texto con redes recurrentes
   [(ver)](https://github.com/curso-redes-neuronales-unison/Material/blob/master/libretas/redes_recurrentes.ipynb)
-  [(descargar)](libretas/neurona_lineal.zip).
+  [(descargar)](libretas/redes_recurrentes.ipynb).
 
 
 # Aprendizaje por refuerzo profundo
