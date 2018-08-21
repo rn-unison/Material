@@ -1,6 +1,6 @@
 <p><center><img src="rn2.png" width="200" /></center></p>
 
-# El libro de texto sobre aprendizaje profundo
+# El libro de texto sobre aprendizaje profundo (es *El Libro*)
 
 [Deep Learning (I. Goodfellow, Yoshua Bengio y Aaron Courville),
 2016](http://www.deeplearningbook.org "EL LIBRO de Aprendizaje
