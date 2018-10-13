@@ -77,11 +77,11 @@
 
 3. Toma la salida de cada una de dichas CNNs.
 
+
 * Redes convolucionales basadas en regiones (RCNN)                  :B_frame:
   :PROPERTIES:
   :BEAMER_env: frame
   :END:
-#+Beamer: \framesubtitle{Esquema general}
 
 \vfill
 #+ATTR_LATEX: :float t
@@ -89,14 +89,68 @@
 [[./imagenes/rcnn.png]]\vfill
 
 
-* Redes convolucionales (CNN)                                       :B_frame:
+* Redes convolucionales basadas en regiones mejorada (Fast-RCNN)    :B_frame:
   :PROPERTIES:
   :BEAMER_env: frame
   :END:
-#+Beamer: \framesubtitle{Fast RCNN}
 
 \vfill
 
 #+ATTR_LATEX: :float t
 #+ATTR_LaTeX: :width 0.90\textwidth
 [[./imagenes/fast-rcnn.png]]\vfill
+
+* Última version mejorada (Fast-RCNN)                               :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+
+\vfill
+
+#+ATTR_LATEX: :float t
+#+ATTR_LaTeX: :width 0.70\textwidth
+[[./imagenes/faster-rcnn.png]]\vfill
+
+* Otra arquitectura no tan directa (RFCN)                  :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+
+\vfill
+
+#+ATTR_LATEX: :float t
+#+ATTR_LaTeX: :width 0.90\textwidth
+[[./imagenes/rfcn.png]]\vfill
+
+* Ejemplo de RFCN                                                   :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+
+\vfill
+
+#+ATTR_LATEX: :float t
+#+ATTR_LaTeX: :width 0.70\textwidth
+[[./imagenes/rfcn-ejemplo.png]]\vfill
+
+* Otra arquitectura más (SSD)                                       :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+
+\vfill
+
+#+ATTR_LATEX: :float t
+#+ATTR_LaTeX: :width 0.90\textwidth
+[[./imagenes/ssd.png]]\vfill
+
+* Ejemplo de SSD                                                    :B_frame:
+  :PROPERTIES:
+  :BEAMER_env: frame
+  :END:
+
+\vfill
+
+#+ATTR_LATEX: :float t
+#+ATTR_LaTeX: :width 0.90\textwidth
+[[./imagenes/ssd-ejemplo.png]]\vfill

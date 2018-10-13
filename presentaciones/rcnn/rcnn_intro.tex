@@ -1,4 +1,4 @@
-% Created 2018-04-13 Fri 10:06
+% Created 2018-10-08 Mon 08:57
 % Intended LaTeX compiler: pdflatex
 \documentclass[presentation, t]{beamer}
 \usepackage[utf8]{inputenc}
@@ -135,14 +135,14 @@ literate=
  pdftitle={Una revisión sobre redes convolucionales para localización de objetos en imágenes},
  pdfkeywords={},
  pdfsubject={Presentación para la SIDM},
- pdfcreator={Emacs 25.1.50.2 (Org mode 9.1.2)},
+ pdfcreator={Emacs 25.1.50.2 (Org mode 9.1.14)},
  pdflang={Spanish}}
 \begin{document}
 
 \maketitle
 
 
-\begin{frame}[label={sec:org6cf74ba}]{Plan de la presentación}
+\begin{frame}[label={sec:orgbc0108b}]{Plan de la presentación}
 \begin{enumerate}
 \item ¿Qué es la localización de objetos en imágenes?
 \item Arquitectura RCNN
@@ -161,9 +161,52 @@ literate=
 \end{frame}
 
 
-\begin{frame}[label={sec:orgeb11ad6}]{Redes convolucionales (CNN)}
-\framesubtitle{RCNN}
 
+\begin{frame}[label={sec:org124ae9e}]{Detección de objetos en imágenes}
+\begin{enumerate}
+\item Redes convolucionales para tratamiento de imágenes\vfill
+
+\item Reconocimiento de objetos en imágenes, la aplicación más exitosa de
+las CNN\vfill
+
+\item Localización de objetos en imágenes es parecido a aplicar el
+reconocimiento en muchas subimágenes y luego fusionar la
+información\vfill
+\end{enumerate}
+\end{frame}
+
+
+
+
+
+\begin{frame}[label={sec:org6b47e45}]{Redes convolucionales basadas en regiones (RCNN)}
+\begin{enumerate}
+\item La primera red convolucional para detección de objetos
+
+\item Es la base de todas las redes siguientes, pero solo se utiliza
+actualmente como método ilustrativo.
+
+\item Muy lenta, implica el entrenamiento de muchos métodos
+\end{enumerate}
+\end{frame}
+
+
+
+\begin{frame}[label={sec:org2ad81c0}]{Redes convolucionales basadas en regiones (RCNN)}
+\framesubtitle{Algortimo general}
+
+\begin{enumerate}
+\item Escanea la imágen de entrada utilizando un algoritmo llamado \emph{Selective Search},
+y genera al rededor de 2000 regones para probar si en éstas se encuentra algun objeto.
+
+\item Ejecuta una red convolucional (capas convolucionales y de \emph{max pooling} por cada una de las regiones.
+
+\item Toma la salida de cada una de dichas CNNs.
+\end{enumerate}
+\end{frame}
+
+
+\begin{frame}[label={sec:org66818a0}]{Redes convolucionales basadas en regiones (RCNN)}
 \vfill
 \begin{figure}[htbp]
 \centering
@@ -172,14 +215,57 @@ literate=
 \end{frame}
 
 
-\begin{frame}[label={sec:orgba9caee}]{Redes convolucionales (CNN)}
-\framesubtitle{Fast RCNN}
-
+\begin{frame}[label={sec:orgb7b11da}]{Redes convolucionales basadas en regiones mejorada (Fast-RCNN)}
 \vfill
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.90\textwidth]{./imagenes/fast-rcnn.png}
+\end{figure}\vfill
+\end{frame}
+
+\begin{frame}[label={sec:org95e241e}]{Última version mejorada (Fast-RCNN)}
+\vfill
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\textwidth]{./imagenes/faster-rcnn.png}
+\end{figure}\vfill
+\end{frame}
+
+\begin{frame}[label={sec:orgf6447f9}]{Otra arquitectura no tan directa (RFCN)}
+\vfill
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.90\textwidth]{./imagenes/rfcn.png}
+\end{figure}\vfill
+\end{frame}
+
+\begin{frame}[label={sec:org2a9f368}]{Ejemplo de RFCN}
+\vfill
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\textwidth]{./imagenes/rfcn-ejemplo.png}
+\end{figure}\vfill
+\end{frame}
+
+\begin{frame}[label={sec:orgc71bec6}]{Otra arquitectura más (SSD)}
+\vfill
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.90\textwidth]{./imagenes/ssd.png}
+\end{figure}\vfill
+\end{frame}
+
+\begin{frame}[label={sec:orgcb77c59}]{Ejemplo de SSD}
+\vfill
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.90\textwidth]{./imagenes/ssd-ejemplo.png}
 \end{figure}\vfill
 \end{frame}
 \end{document}
